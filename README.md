@@ -46,12 +46,18 @@ When a group of people go on a multi-day trip together, there are many shared ex
     cd Project6-Split_The_Bill
     ```
 
-3.  **Install dependencies:**
+3.  **Switch to most updated branch:**
+    ```bash
+    git branch -a
+    git checkout expenses-settlement
+    ```
+
+4.  **Install dependencies:**
     ```bash
     bundle install
     ```
 
-4.  **Set up the database:**
+5.  **Set up the database:**
     ```bash
     rails db:create
     rails db:migrate
